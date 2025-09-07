@@ -38,16 +38,17 @@ Enhance productivity by providing intelligent task suggestions and a smooth task
 
 ## Technologies Used
 
-- NextJs (Frontend) 
-- Tailwind CSS  
-- Formik (for form handling)  
-- Yup (for form validation)  
-- Axios (for HTTP requests) 
-- Tarnstack 
-- NestJs (Backend)
-- TypeORM
-- MySQL (Database)
-- Ollama (AI Model)
+- NextJs (Frontend) – A React framework for building modern, fast web applications.
+- Tailwind CSS – A utility-first CSS framework for rapid and consistent styling.
+- Formik - A library to simplify form management and input state handling in React.
+- Yup - A schema-based form validation library that works with Formik.
+- Axios – An HTTP client library for making API requests to the backend.
+- Zustand – A lightweight state management library for React/Next.js; useful for managing global state with minimal boilerplate compared to Redux.
+- Tarnstack - A modern fullstack stack (Next.js, Tailwind, TypeScript, TRPC) for building type-safe and efficient frontend-backend applications.
+- NestJs - A Node.js framework built with TypeScript, used to build scalable APIs and microservices.
+- TypeORM – An ORM for Node.js/TypeScript that simplifies database interactions with MySQL.
+- MySQL – A relational database to store and manage application data.
+- Ollama – An AI model for NLP, chatbots, or other AI-powered features.
 
 ---
 
