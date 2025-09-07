@@ -5,7 +5,7 @@ Muhammad Syafri Surya Muzaim - Fullstack Developer
 ## Setup Database
  Create a MySQL Database on your Database Admin
  ```bash
- name your database as deptech_submission
+ name your database as icn_submission
  ```
  Import Database
  ```bash
