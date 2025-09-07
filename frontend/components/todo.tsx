@@ -62,9 +62,11 @@ const TodoModal: FC<TodoModalProps> = ({ showModal, setShowModal, handleCloseMod
                 onSuccess: () => {
                     resetForm();
                     setShowModal(false);
-                    queryClient.invalidateQueries({
-                        queryKey: ["activities", selectedDate.toISOString()]
-                    });
+                    // queryClient.invalidateQueries({
+                    //     queryKey: ["activities", selectedDate.toISOString()]
+                    // });
+                    queryClient.invalidateQueries(["activities", selectedDate]);
+
                     toast.success("Activity updated successfully");
                     handleCloseModal();
                 },
@@ -76,9 +78,10 @@ const TodoModal: FC<TodoModalProps> = ({ showModal, setShowModal, handleCloseMod
                 onSuccess: () => {
                     resetForm();
                     setShowModal(false);
-                    queryClient.invalidateQueries({
-                        queryKey: ["activities", selectedDate.toISOString()]
-                    });
+                    // queryClient.invalidateQueries({
+                    //     queryKey: ["activities", selectedDate.toISOString()]
+                    // });
+                    queryClient.invalidateQueries(["activities", selectedDate]);
                     toast.success("Successfully added new activity");
                     handleCloseModal();
                 },
